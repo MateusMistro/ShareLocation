@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Location"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/principal"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_sem_fundo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faça Login"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="normal"
+        android:textColor="@color/principal"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:background="@drawable/borda"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:paddingLeft="15dp"
+        />
+
+    <EditText
+        android:id="@+id/etSenha"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Senha"
+        android:background="@drawable/borda"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:paddingLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/etCriar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="clique aqui para criar uma conta"
+        android:textColor="@color/principal"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Entrar"
+        android:textColor="@color/black"
+        android:background="@drawable/borda"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+
+        />
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496241667676",
+    "project_id": "sharelocation-404c5",
+    "storage_bucket": "sharelocation-404c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496241667676:android:b32d907b2a084efa848099",
+        "android_client_info": {
+          "package_name": "br.edu.puccampinas.sharelocation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3fLCtgidomuBoIta3EUmRWDG8yfVpT9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
